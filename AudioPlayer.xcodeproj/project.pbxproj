@@ -14,6 +14,13 @@
 		EF3D27481D8A430F00F190AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3D27461D8A430F00F190AE /* LaunchScreen.storyboard */; };
 		EF3D27531D8A430F00F190AE /* AudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3D27521D8A430F00F190AE /* AudioPlayerTests.swift */; };
 		EF3D275E1D8A430F00F190AE /* AudioPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3D275D1D8A430F00F190AE /* AudioPlayerUITests.swift */; };
+		EF7F31B91D8BD6DF004FC4DC /* icon_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7F31B21D8BD6DF004FC4DC /* icon_pause.png */; };
+		EF7F31BA1D8BD6DF004FC4DC /* icon_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7F31B31D8BD6DF004FC4DC /* icon_pause@2x.png */; };
+		EF7F31BB1D8BD6DF004FC4DC /* icon_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7F31B41D8BD6DF004FC4DC /* icon_pause@3x.png */; };
+		EF7F31BC1D8BD6DF004FC4DC /* icon_playing.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7F31B51D8BD6DF004FC4DC /* icon_playing.png */; };
+		EF7F31BD1D8BD6DF004FC4DC /* icon_playing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7F31B61D8BD6DF004FC4DC /* icon_playing@2x.png */; };
+		EF7F31BE1D8BD6DF004FC4DC /* icon_playing@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7F31B71D8BD6DF004FC4DC /* icon_playing@3x.png */; };
+		EF7F31BF1D8BD6DF004FC4DC /* XQAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7F31B81D8BD6DF004FC4DC /* XQAudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		EF3D27591D8A430F00F190AE /* AudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3D275D1D8A430F00F190AE /* AudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerUITests.swift; sourceTree = "<group>"; };
 		EF3D275F1D8A430F00F190AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7F31B21D8BD6DF004FC4DC /* icon_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pause.png; sourceTree = "<group>"; };
+		EF7F31B31D8BD6DF004FC4DC /* icon_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pause@2x.png"; sourceTree = "<group>"; };
+		EF7F31B41D8BD6DF004FC4DC /* icon_pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pause@3x.png"; sourceTree = "<group>"; };
+		EF7F31B51D8BD6DF004FC4DC /* icon_playing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_playing.png; sourceTree = "<group>"; };
+		EF7F31B61D8BD6DF004FC4DC /* icon_playing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_playing@2x.png"; sourceTree = "<group>"; };
+		EF7F31B71D8BD6DF004FC4DC /* icon_playing@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_playing@3x.png"; sourceTree = "<group>"; };
+		EF7F31B81D8BD6DF004FC4DC /* XQAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XQAudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,7 @@
 		EF3D273C1D8A430F00F190AE /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				EF7F31B11D8BD6DF004FC4DC /* XQAudioPlayer */,
 				EF3D273D1D8A430F00F190AE /* AppDelegate.swift */,
 				EF3D273F1D8A430F00F190AE /* ViewController.swift */,
 				EF3D27411D8A430F00F190AE /* Main.storyboard */,
@@ -123,6 +138,20 @@
 				EF3D275F1D8A430F00F190AE /* Info.plist */,
 			);
 			path = AudioPlayerUITests;
+			sourceTree = "<group>";
+		};
+		EF7F31B11D8BD6DF004FC4DC /* XQAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EF7F31B21D8BD6DF004FC4DC /* icon_pause.png */,
+				EF7F31B31D8BD6DF004FC4DC /* icon_pause@2x.png */,
+				EF7F31B41D8BD6DF004FC4DC /* icon_pause@3x.png */,
+				EF7F31B51D8BD6DF004FC4DC /* icon_playing.png */,
+				EF7F31B61D8BD6DF004FC4DC /* icon_playing@2x.png */,
+				EF7F31B71D8BD6DF004FC4DC /* icon_playing@3x.png */,
+				EF7F31B81D8BD6DF004FC4DC /* XQAudioPlayer.swift */,
+			);
+			path = XQAudioPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +259,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF3D27481D8A430F00F190AE /* LaunchScreen.storyboard in Resources */,
+				EF7F31BB1D8BD6DF004FC4DC /* icon_pause@3x.png in Resources */,
 				EF3D27451D8A430F00F190AE /* Assets.xcassets in Resources */,
+				EF7F31BE1D8BD6DF004FC4DC /* icon_playing@3x.png in Resources */,
 				EF3D27431D8A430F00F190AE /* Main.storyboard in Resources */,
+				EF7F31BD1D8BD6DF004FC4DC /* icon_playing@2x.png in Resources */,
+				EF7F31BA1D8BD6DF004FC4DC /* icon_pause@2x.png in Resources */,
+				EF7F31BC1D8BD6DF004FC4DC /* icon_playing.png in Resources */,
+				EF7F31B91D8BD6DF004FC4DC /* icon_pause.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7F31BF1D8BD6DF004FC4DC /* XQAudioPlayer.swift in Sources */,
 				EF3D27401D8A430F00F190AE /* ViewController.swift in Sources */,
 				EF3D273E1D8A430F00F190AE /* AppDelegate.swift in Sources */,
 			);
@@ -402,8 +438,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AudioPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = paditech.AudioPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.datxqvh.0011;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -413,8 +450,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AudioPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = paditech.AudioPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.datxqvh.0011;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,6 +522,7 @@
 				EF3D27641D8A430F00F190AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF3D27651D8A430F00F190AE /* Build configuration list for PBXNativeTarget "AudioPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +531,7 @@
 				EF3D27671D8A430F00F190AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF3D27681D8A430F00F190AE /* Build configuration list for PBXNativeTarget "AudioPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +540,7 @@
 				EF3D276A1D8A430F00F190AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
