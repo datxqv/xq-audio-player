@@ -26,7 +26,8 @@ Install manualy, you can copy XQAudioPlayer folder to your project. After that, 
         // Setting delegate
         audioPlayer.delegate = self
 # Delegate
-/* Player did updated duration time
+
+    /* Player did updated duration time
      * You can get duration time of audio in here
      */
     func playerDidUpdateDurationTime(player: XQAudioPlayer, durationTime: CMTime) {
