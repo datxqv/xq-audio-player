@@ -1,7 +1,7 @@
 # xq-audio-player
 Play audio online with http url
 # Play http audio using very simple code
-Install manualy, you can copy XQAudioPlayer folder to your project. After that, using simple code under here to play a http audio url:
+Oder to install manualy, please copy XQAudioPlayer folder to your project. After that, using simple code under here to play a http audio url:
         
         let url = "http://www.stephaniequinn.com/Music/Allegro%20from%20Duet%20in%20C%20Major.mp3"
         let audioPlayer = XQAudioPlayer.init(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_WIDTH * 0.3), urlString: url)
