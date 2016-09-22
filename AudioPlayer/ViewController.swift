@@ -26,11 +26,14 @@ class ViewController: UIViewController, XQAudioPlayerDelegate {
     //MARK: - Init
     func initComponent() {
         let url = "http://www.stephaniequinn.com/Music/Allegro%20from%20Duet%20in%20C%20Major.mp3"
-        let audioPlayer = XQAudioPlayer.init(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_WIDTH * 0.3), urlString: url)
+        let audioPlayer = XQAudioPlayer.init(frame: CGRect(x: 0, y: 70, width: SCREEN_WIDTH, height: SCREEN_WIDTH * 0.12), urlString: url)
         self.view.addSubview(audioPlayer)
         
         // Change progress color
         audioPlayer.progressColor = UIColor.blueColor()
+        
+        // Change background color
+        audioPlayer.backgroundColor = UIColor.groupTableViewBackgroundColor()
         
         // Change background progress color
         audioPlayer.progressBackgroundColor = UIColor.grayColor()

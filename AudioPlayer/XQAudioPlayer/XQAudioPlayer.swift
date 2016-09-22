@@ -142,10 +142,10 @@ class XQAudioPlayer: UIView {
     func config(urlString: String) {
         
         // Init playerView
-        let playerHeight = self.frame.size.width * 0.2;
+        let playerHeight = self.frame.size.height;
         let playerWidth = self.frame.size.width;
         self.playerView = UIView(frame: CGRect(x: 0, y: 0, width: CGRectGetWidth(self.frame), height: playerHeight))
-        self.playerView.backgroundColor = UIColor.groupTableViewBackgroundColor()
+        self.playerView.backgroundColor = UIColor.clearColor()
         self.backgroundColor = UIColor.whiteColor()
         self.userInteractionEnabled = true
         self.addSubview(self.playerView)
